@@ -14,8 +14,10 @@ equally short pieces of code. The shell script requires Bash 4.x, `sed` and
 You may want to rename or symlink either of the scripts to remove the file
 extension for convenience of use. Usage is straightforward:
 
-	lyxcitecount *.lyx
-	lyxcitecount Chapter1.lyx Chapter2.lyx
+	~$ lyxcitecount *.lyx
+	251
+	~$ lyxcitecount Chapter1.lyx Chapter2.lyx
+    77
 
 I encourage anyone to try and integrate something like this into the LyX
 statistics dialog.
