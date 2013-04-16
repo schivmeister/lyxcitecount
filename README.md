@@ -11,6 +11,8 @@ Python. Use whichever is supported in your computing environment; both are
 equally short pieces of code. The shell script requires Bash 4.x, `sed` and
 `dos2unix`. The interpreted program is compatible with both Python 2 and 3.
 
+Example Usage
+-------------
 You may want to rename or symlink either of the scripts to remove the file
 extension for convenience of use. Usage is straightforward:
 
