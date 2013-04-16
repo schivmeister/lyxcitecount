@@ -20,4 +20,5 @@ extension for convenience of use. Usage is straightforward:
     77
 
 I encourage anyone to try and integrate something like this into the LyX
-statistics dialog.
+statistics dialog. Should work with any and all citation styles since LyX
+wraps a single cite command, but please do report back if it doesn't.
