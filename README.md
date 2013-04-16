@@ -2,7 +2,7 @@ lyxcitecount
 ============
 
 Use this to get a count of the number of unique references cited in one or
-more [LyX](https://www.lyx.org/) LyX documents. Especially useful when you
+more [LyX](https://www.lyx.org/) documents. Especially useful when you
 have a parent-child document structure and are interested in per-chapter
 statistics.
 
