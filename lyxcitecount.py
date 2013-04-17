@@ -24,10 +24,11 @@
 
 from sys import argv as sargv, exit as sexit
 from os.path import basename, isfile
-from re import compile cregexp
+from re import compile as cregexp
 
 if len(sargv) < 2:
 	print("usage: "+basename(sargv[0])+" <file1> <file2> ...")
+	sexit(1)
 
 # prepare the regex to match relevant lines
 REkey = cregexp(r'^key "[aA-zZ|0-9].*"$')
